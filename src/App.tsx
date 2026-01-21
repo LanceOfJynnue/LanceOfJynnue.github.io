@@ -11,7 +11,6 @@ import AuthLogin from './pages/logged-out/authenticate.tsx/AuthLogin.tsx';
 import Blog_Editor from './pages/logged-in/Blog_Editor.tsx';
 import './style.css';
 
-
 const user_id_str: string | null = sessionStorage.getItem('currentUserId');
 const user_id: number = user_id_str ? parseInt(user_id_str, 10) : 0;
 
